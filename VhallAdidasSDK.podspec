@@ -13,15 +13,14 @@ Pod::Spec.new do |s|
 
   s.author          = { "gc" => "guochao751082551@163.com" }
   s.source          = { :git => "https://github.com/adidasjc/vhall-ios-sdk.git", :tag => s.version.to_s}
-
+  s.homepage        = 'https://github.com/adidasjc/vhall-ios-sdk'
+  
   s.vendored_frameworks = 'VHallAdidasSDK/VHallAdidasSDK.framework'
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'x86_64 armv7 arm64'
   }
 
   # s.resources       = ['README.md']
-  # s.homepage        = 'https://www.vhall.com'
-
 
   s.dependency 'AFNetworking','4.0.1'
   s.dependency 'MBProgressHUD','1.2.0'
