@@ -1,5 +1,3 @@
-# vhall-ios-sdk
-
 # Adidas VHallSDK 集成
 
 ## 一 支持平台
@@ -57,6 +55,10 @@ Build Setting 中 Enable Bitcode 设置为NO
 ```objc
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    <!--#define VHSDK_app_id                   @"2ASwAwye"-->
+    <!--#define VHSDK_secret_key               @"dE7sLSZTjzq366lgXv3RuPC8hw5iXZSr"-->
+    <!--#define VHSDK_app_host                 @"https://t-adidas-api.vhallyun.com"-->
 
     /// 初始化SDK
     [VHSDK registerApp_id:VHSDK_app_id secret_key:VHSDK_secret_key app_host:VHSDK_app_host application:application launchOptions:launchOptions];
@@ -157,3 +159,11 @@ Build Setting 中 Enable Bitcode 设置为NO
 }
 ```
 
+
+## 注意事项
+
+```objc
+
+1. 需要在info的'Fonts provided by application' 团价对应字体 'AdihausDIN-Bold.ttf' 'AdihausDIN-Regular.ttf'
+
+```

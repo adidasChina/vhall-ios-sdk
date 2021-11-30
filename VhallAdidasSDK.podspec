@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.frameworks      = 'Foundation'
 
   s.author          = { "gc" => "guochao751082551@163.com" }
-  s.source          = { :git => "https://github.com/adidasjc/vhall-ios-sdk.git", :tag => s.version.to_s}
+  s.source          = { :git => "git@github.com:adidasjc/vhall-ios-sdk.git", :tag => s.version.to_s}
   s.homepage        = 'https://github.com/adidasjc/vhall-ios-sdk'
   
   s.vendored_frameworks = 'VHallAdidasSDK/VHallAdidasSDK.framework'
