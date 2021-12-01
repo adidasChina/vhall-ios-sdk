@@ -27,7 +27,6 @@
   pod 'MJRefresh','3.7.2'
   pod 'MJExtension','3.4.0'
   pod 'DZNEmptyDataSet','1.8.1'
-  pod 'IQKeyboardManager','6.5.9'
   pod 'YYKit','1.0.9'
   pod 'VHCore','2.2.0'
   pod 'VHYun_IM','2.3.0'

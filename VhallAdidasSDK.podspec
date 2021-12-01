@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary         = "VhallAdidasSDK"
   s.module_name     = 'VhallAdidasSDK'
 
-  s.version         = "1.0.3"
+  s.version         = "1.0.4"
   s.license         = 'MIT'
   s.platform        = :ios, '9.0'
   s.requires_arc    = true
@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
   s.dependency 'MJExtension','3.4.0'
   s.dependency 'DZNEmptyDataSet','1.8.1'
   s.dependency 'YYKit','1.0.9'
-  s.dependency 'IQKeyboardManager','6.5.9'
   s.dependency 'VHCore','2.2.0'
   s.dependency 'VHYun_IM','2.3.0'
   s.dependency 'VHYun_LSS','2.4.0'
