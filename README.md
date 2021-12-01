@@ -61,7 +61,7 @@ Build Setting 中 Enable Bitcode 设置为NO
     <!--#define VHSDK_app_host                 @"https://t-adidas-api.vhallyun.com"-->
 
     /// 初始化SDK
-    [VHSDK registerApp_id:VHSDK_app_id secret_key:VHSDK_secret_key app_host:VHSDK_app_host application:application launchOptions:launchOptions];
+    [VHSDK registerApp_id:VHSDK_app_id secret_key:VHSDK_secret_key app_host:VHSDK_app_host];
 
     /// 注册原生交互回调
     [[VHCAdidasSingleInstance sharedInstance] registerAdidasSDK:self];
@@ -97,7 +97,7 @@ Build Setting 中 Enable Bitcode 设置为NO
 /**
  * 获取推送权限接口
  */
-- (void)requestPushPermissionToAdudasCompletion:(void(^)(BOOL isPush))block
+- (void)requestPushPermissionToAdidasCompletion:(void(^)(BOOL isPush))block
 {
     if (block) {
         block(YES);
@@ -106,7 +106,7 @@ Build Setting 中 Enable Bitcode 设置为NO
 /**
  * 调整推送权限设置界面
  */
-- (void)openPushPermissionToAdudas
+- (void)openPushPermissionToAdidas
 {
     
 }

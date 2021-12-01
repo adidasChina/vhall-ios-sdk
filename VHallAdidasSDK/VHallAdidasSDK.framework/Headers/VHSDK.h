@@ -8,8 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKIT/UIKIT.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface VHSDK : NSObject
 /**
  * @brief 单例方法。
@@ -32,9 +30,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (void)registerApp_id:(NSString *)app_id
             secret_key:(NSString *)secret_key
-              app_host:(NSString *)app_host
-           application:(UIApplication *)application
-         launchOptions:(NSDictionary *)launchOptions;
+              app_host:(NSString *)app_host;
 
 /** 进入房间
  *  @param il_id        房间号
@@ -54,5 +50,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @end
-
-NS_ASSUME_NONNULL_END

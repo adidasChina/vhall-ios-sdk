@@ -8,7 +8,6 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-NS_ASSUME_NONNULL_BEGIN
 @protocol VHCAdidasSDK <NSObject>
 
 @required
@@ -28,11 +27,11 @@ NS_ASSUME_NONNULL_BEGIN
  * 获取推送权限接口
  * @param block 完成操作 isPush YES以开启推送权限 NO未开启推送权限
  */
-- (void)requestPushPermissionToAdudasCompletion:(void(^)(BOOL isPush))block;
+- (void)requestPushPermissionToAdidasCompletion:(void(^)(BOOL isPush))block;
 /**
  * 调整推送权限设置界面
  */
-- (void)openPushPermissionToAdudas;
+- (void)openPushPermissionToAdidas;
 /**
  * 进入商品半屏界面
  * @param good_id 商品id
@@ -64,5 +63,3 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 @end
-
-NS_ASSUME_NONNULL_END
