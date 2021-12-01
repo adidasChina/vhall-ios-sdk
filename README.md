@@ -167,3 +167,16 @@ Build Setting 中 Enable Bitcode 设置为NO
 1. 需要在info的'Fonts provided by application' 团价对应字体 'AdihausDIN-Bold.ttf' 'AdihausDIN-Regular.ttf'
 
 ```
+
+
+## 更新日志
+
+```objc
+
+2021.12.01
+1.优化方法和入参，application:application launchOptions:launchOptions 参数移除不需要传递了，member_id 和 phone 调整了一下 可以传nil或者@“”。
+2.优化window的获取方式、使用方式
+
+```
+
+
