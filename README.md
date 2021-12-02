@@ -181,6 +181,7 @@ Build Setting 中 Enable Bitcode 设置为NO
 6.优化进入房间欢迎语
 7.优化点击商品跳转参数
 8.优化重新登录流程
+9.优化填写地址信息界面
 
 2021.12.01
 1.优化方法和入参，application:application launchOptions:launchOptions 参数移除不需要传递了，member_id 和 phone 调整了一下 可以传nil或者@“”。
