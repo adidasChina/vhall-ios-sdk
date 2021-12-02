@@ -20,9 +20,9 @@
 /**
  * 跳转登录界面
  * @param viewController 所在控制器
- * @param block il_id  房间号 / member_id   三方唯一ID / phone   手机号码
+ * @param block member_id   三方唯一ID / phone   手机号码
  */
-- (void)toLoginToAdidasViewController:(UIViewController *)viewController completion:(void(^)(NSString * il_id , NSString * member_id , NSString * phone))block;
+- (void)toLoginToAdidasViewController:(UIViewController *)viewController completion:(void(^)(NSString * member_id , NSString * phone))block;
 /**
  * 获取推送权限接口
  * @param block 完成操作 isPush YES以开启推送权限 NO未开启推送权限
