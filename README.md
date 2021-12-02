@@ -178,6 +178,8 @@ Build Setting 中 Enable Bitcode 设置为NO
 3.结束直播、结束点播监听关闭悬浮窗，踢出直播间，不展示悬浮窗
 4.优化进入房间逻辑，处理了inav/get请求异常的场景
 5.完善进入房间，获取最新一条公告
+6.优化进入房间欢迎语
+7.优化点击商品跳转参数
 
 2021.12.01
 1.优化方法和入参，application:application launchOptions:launchOptions 参数移除不需要传递了，member_id 和 phone 调整了一下 可以传nil或者@“”。

@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary         = "VhallAdidasSDK"
   s.module_name     = 'VhallAdidasSDK'
 
-  s.version         = "1.0.6"
+  s.version         = "1.0.7"
   s.license         = 'MIT'
   s.platform        = :ios, '9.0'
   s.requires_arc    = true
