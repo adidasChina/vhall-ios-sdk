@@ -135,6 +135,13 @@ Build Setting 中 Enable Bitcode 设置为NO
 {
     
 }
+/**
+ * 获取Adidas指定控制器
+ */
+- (UIViewController *)getToAdidasVC
+{
+    return [VUITool topController];
+}
 
 ```
 
@@ -176,6 +183,8 @@ Build Setting 中 Enable Bitcode 设置为NO
 1.优化画中画效果
 2.视频加载loading需要在视频上方
 3.点击分享不打开悬浮窗
+5.增加获取Adidas控制器的方法
+6.新增获取Adidas指定控制器
 
 2021.12.03
 1、新增抽奖开关监听功能

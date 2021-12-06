@@ -52,6 +52,11 @@
  */
 - (void)openShareToAdidasShareImg:(NSString *)shareImg viewController:(UIViewController *)viewController;
 
+/**
+ * 获取Adidas指定控制器
+ */
+- (UIViewController *)getToAdidasVC;
+
 @end
 
 @interface VHCAdidasSingleInstance : NSObject <VHCAdidasSDK>
