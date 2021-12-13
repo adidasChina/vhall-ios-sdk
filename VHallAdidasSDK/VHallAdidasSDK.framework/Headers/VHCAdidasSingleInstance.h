@@ -30,8 +30,9 @@
 - (void)requestPushPermissionToAdidasCompletion:(void(^)(BOOL isPush))block;
 /**
  * 调整推送权限设置界面
+ * @param viewController 所在控制器
  */
-- (void)openPushPermissionToAdidas;
+- (void)openPushPermissionToAdidasToViewController:(UIViewController *)viewController;
 /**
  * 进入商品半屏界面
  * @param good_id 商品id

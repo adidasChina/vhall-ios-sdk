@@ -105,9 +105,11 @@ Build Setting 中 Enable Bitcode 设置为NO
 /**
  * 调整推送权限设置界面
  */
-- (void)openPushPermissionToAdidas
+- (void)openPushPermissionToAdidasToViewController:(UIViewController *)viewController
 {
-    
+    AdidasGoodsDetailVC * mainVC = [[AdidasGoodsDetailVC alloc] init];
+    mainVC.modalPresentationStyle = UIModalPresentationFullScreen;
+    [viewController presentViewController:mainVC animated:YES completion:nil];
 }
 /**
  * 进入商品半屏界面
@@ -178,6 +180,9 @@ Build Setting 中 Enable Bitcode 设置为NO
 ## 更新日志
 
 ```objc
+
+2021.12.13
+1.增加推送界面控制器
 
 2021.12.09
 1.调整开屏广告和欢迎语的顺序流程
