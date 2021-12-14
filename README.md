@@ -181,6 +181,14 @@ Build Setting 中 Enable Bitcode 设置为NO
 
 ```objc
 
+2021.12.14
+1.新增获取最新用户信息接口
+- (void)requestToUserInfoToAdidasCompletion:(void(^)(NSString * member_id , NSString * phone))block;
+2.新增进入测试房间接口
++ (void)enterTestMember_id:(NSString *)member_id
+                     phone:(NSString *)phone;
+3.更改商品日志上报接口请求数据
+
 2021.12.13
 1.增加推送界面控制器
 2.优化切换后台收不到消息,无法同步状态的问题

@@ -18,6 +18,11 @@
  */
 - (void)requestLoginStatusToAdidasCompletion:(void(^)(BOOL isLogin))block;
 /**
+ * 获取用户信息
+ * @param block member_id   三方唯一ID / phone   手机号码
+ */
+- (void)requestToUserInfoToAdidasCompletion:(void(^)(NSString * member_id , NSString * phone))block;
+/**
  * 跳转登录界面
  * @param viewController 所在控制器
  * @param block member_id   三方唯一ID / phone   手机号码
