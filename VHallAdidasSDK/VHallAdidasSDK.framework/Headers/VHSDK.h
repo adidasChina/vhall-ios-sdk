@@ -32,13 +32,6 @@
             secret_key:(NSString *)secret_key
               app_host:(NSString *)app_host;
 
-/** 进入测试房间
- *  @param member_id    三方唯一ID
- *  @param phone        手机号码
- */
-+ (void)enterTestMember_id:(NSString *)member_id
-                     phone:(NSString *)phone;
-
 /** 进入房间
  *  @param il_id        房间号
  *  @param member_id    三方唯一ID

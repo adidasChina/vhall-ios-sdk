@@ -181,6 +181,9 @@ Build Setting 中 Enable Bitcode 设置为NO
 
 ```objc
 
+2021.12.15
+1.项目UI走查,并修复UI问题
+
 2021.12.14
 1.新增获取最新用户信息接口
 - (void)requestToUserInfoToAdidasCompletion:(void(^)(NSString * member_id , NSString * phone))block;
