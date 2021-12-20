@@ -181,6 +181,9 @@ Build Setting 中 Enable Bitcode 设置为NO
 
 ```objc
 
+2021.12.19
+优化登录导致的退出房间声音还存在的问题
+
 2021.12.18
 bitcode支持测试
 
