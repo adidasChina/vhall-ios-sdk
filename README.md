@@ -181,6 +181,9 @@ Build Setting 中 Enable Bitcode 设置为NO
 
 ```objc
 
+2021.12.21
+Adidas如果没有给当前显示的控制器,则vhall使用当前屏幕显示的topVC.
+
 2021.12.19
 优化登录导致的退出房间声音还存在的问题
 

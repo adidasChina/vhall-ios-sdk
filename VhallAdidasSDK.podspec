@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.summary         = "VhallAdidasSDK"
   s.module_name     = 'VhallAdidasSDK'
 
-  s.version         = "1.2.8"
+  s.version         = "1.2.9"
   s.license         = 'MIT'
   s.platform        = :ios, '9.0'
   s.requires_arc    = true
@@ -19,8 +19,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = {
     'VALID_ARCHS' => 'x86_64 armv7 arm64'
   }
-
-  # s.resources       = ['README.md']
 
   s.dependency 'AFNetworking','4.0.1'
   s.dependency 'MBProgressHUD','1.2.0'
