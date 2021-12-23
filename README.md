@@ -29,9 +29,9 @@
   pod 'DZNEmptyDataSet','1.8.1'
   pod 'YYKit','1.0.9'
   pod 'VHCore','2.2.0'
-  pod 'VHYun_IM','2.3.0'
-  pod 'VHYun_LSS','2.4.0'
-  pod 'VHYun_RTC','2.4.0'
+  pod 'VHYun_IM','2.3.2'
+  pod 'VHYun_LSS','2.4.2'
+  pod 'VHYun_RTC','2.4.3'
 
 ```
 
@@ -180,6 +180,9 @@ Build Setting 中 Enable Bitcode 设置为NO
 ## 更新日志
 
 ```objc
+
+2021.12.23
+UI走查
 
 2021.12.22
 包含模拟器且支持bitcode
