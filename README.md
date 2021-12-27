@@ -181,6 +181,9 @@ Build Setting 中 Enable Bitcode 设置为NO
 
 ```objc
 
+2021.12.27
+解决日志 One of the two will be used. Which one is undefined 的问题
+
 2021.12.23
 UI走查
 
