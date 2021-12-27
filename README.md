@@ -28,17 +28,14 @@
   pod 'MJExtension','3.4.0'
   pod 'DZNEmptyDataSet','1.8.1'
   pod 'YYKit','1.0.9'
-  pod 'VHCore','2.2.0'
+  pod 'VHCore','2.2.2'
   pod 'VHYun_IM','2.3.2'
-  pod 'VHYun_LSS','2.4.2'
-  pod 'VHYun_RTC','2.4.3'
+  pod 'VHYun_LSS','2.4.3'
 
 ```
 
 
 ## 工程设置修改
-
-Build Setting 中 Enable Bitcode 设置为NO
 
 设置Info.plist中 App Transport Security Settings -> Allow Arbitrary Loads 设置为 YES
 
@@ -55,10 +52,6 @@ Build Setting 中 Enable Bitcode 设置为NO
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    <!--#define VHSDK_app_id                   @"2ASwAwye"-->
-    <!--#define VHSDK_secret_key               @"dE7sLSZTjzq366lgXv3RuPC8hw5iXZSr"-->
-    <!--#define VHSDK_app_host                 @"https://t-adidas-api.vhallyun.com"-->
-
     /// 初始化SDK
     [VHSDK registerApp_id:VHSDK_app_id secret_key:VHSDK_secret_key app_host:VHSDK_app_host];
 
@@ -172,7 +165,7 @@ Build Setting 中 Enable Bitcode 设置为NO
 
 ```objc
 
-1. 需要在info的'Fonts provided by application' 团价对应字体 'AdihausDIN-Bold.ttf' 'AdihausDIN-Regular.ttf'
+1. 需要在info的'Fonts provided by application' 添加对应字体 'AdihausDIN-Bold.ttf' 'AdihausDIN-Regular.ttf'
 
 ```
 
@@ -182,7 +175,8 @@ Build Setting 中 Enable Bitcode 设置为NO
 ```objc
 
 2021.12.27
-解决日志 One of the two will be used. Which one is undefined 的问题
+1.解决日志 One of the two will be used. Which one is undefined 的问题
+2.新增中奖自动弹窗
 
 2021.12.23
 UI走查
