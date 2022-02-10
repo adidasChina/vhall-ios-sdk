@@ -56,7 +56,7 @@
  * @param shareImg 分享的图片url
  * @param viewController 所在控制器
  */
-- (void)openShareToAdidasShareImg:(NSString *)shareImg viewController:(UIViewController *)viewController;
+- (void)openShareToAdidasShareImg:(NSString *)shareImg viewController:(UIViewController *)viewController liveName:(NSString *)liveName;
 
 /**
  * 埋点接口

@@ -130,6 +130,15 @@
 {
     
 }
+
+/**
+ * 埋点接口
+ */
+- (void)requestDotToAdidasEvent:(NSString *)event dotDict:(NSMutableDictionary *)dotDict
+{
+    
+}
+
 /**
  * 获取Adidas指定控制器
  */
