@@ -59,6 +59,14 @@
 - (void)openShareToAdidasShareImg:(NSString *)shareImg viewController:(UIViewController *)viewController;
 
 /**
+ * 埋点接口
+ * @param event   事件
+ * @param dotDict 属性
+ */
+- (void)requestDotToAdidasEvent:(NSString *)event dotDict:(NSMutableDictionary *)dotDict;
+
+
+/**
  * 获取Adidas指定控制器
  */
 - (UIViewController *)getToAdidasVC;
