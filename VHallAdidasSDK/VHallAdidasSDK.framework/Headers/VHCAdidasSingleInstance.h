@@ -8,6 +8,12 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
+// 打点类型
+typedef NS_ENUM(NSUInteger, VHAdidasDotType) {
+    VHAdidasDotTypeAction, //点击类型
+    VHAdidasDotTypeScreenView //页面类型
+};
+
 @protocol VHCAdidasSDK <NSObject>
 
 @required
@@ -60,10 +66,11 @@
 
 /**
  * 埋点接口
+ * @param dotType 类型
  * @param event   事件
  * @param dotDict 属性
  */
-- (void)requestDotToAdidasEvent:(NSString *)event dotDict:(NSMutableDictionary *)dotDict;
+- (void)requestDotToAdidasType:(VHAdidasDotType)dotType event:(NSString *)event dotDict:(NSMutableDictionary *)dotDict;
 
 
 /**
