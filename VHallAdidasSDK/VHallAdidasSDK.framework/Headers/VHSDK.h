@@ -20,6 +20,7 @@
  * return 返回sdk版本号
  */
 + (NSString *) getVHSDKVersion;
++ (NSString *) getADVHSDKVersion;
 
 /**
  *  注册app
