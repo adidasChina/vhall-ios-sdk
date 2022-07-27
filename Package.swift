@@ -30,19 +30,19 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/SDWebImage/SDWebImage",
-            from: "5.12.1"
+            .exact("5.12.1")
         ),
         .package(
             url: "https://github.com/SDWebImage/SDWebImageFLPlugin",
-            from: "0.5.0"
+            .exact("0.6.0")
         ),
         .package(
             url: "https://github.com/CoderMJLee/MJRefresh",
-            from: "3.7.2"
+            .exact("3.7.2")
         ),
         .package(
             url: "https://github.com/CoderMJLee/MJExtension",
-            from: "3.4.0"
+            .exact("3.4.0")
         ),
         .package(
             url: "https://github.com/dzenbot/DZNEmptyDataSet",
