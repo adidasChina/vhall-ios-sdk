@@ -70,7 +70,10 @@ let package = Package(
                 .product(name: "MJExtension", package: "MJExtension"),
                 .product(name: "DZNEmptyDataSet", package: "DZNEmptyDataSet")
             ],
-            path: "VhallAdidasSDK"
+            path: "VhallAdidasSDK",
+            exclude: [
+                "VHallAdidasSDK.framework"
+            ]
         ),
         .binaryTarget(
             name: "YYKit",
