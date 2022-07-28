@@ -38,7 +38,7 @@ let package = Package(
         ),
         .package(
             url: "https://github.com/CoderMJLee/MJRefresh",
-            .exact("3.7.2")
+            .exact("3.7.5")
         ),
         .package(
             url: "https://github.com/CoderMJLee/MJExtension",
@@ -93,12 +93,12 @@ let package = Package(
         .binaryTarget(
             name: "VHLSS",
             url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.5.0/VHLSS.zip",
-            checksum: "13981b82d7fcc68d4f44e3c1fbfbab7b6ee1c11e537f751d9e5d7bd62ee4fa89"
+            checksum: "001ad66de7475a174702423f8d637c3e236485a82d05e03901e1b1b973841eed"
         ),
         .binaryTarget(
             name: "VhallLiveBaseApi",
             url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.5.0/VhallLiveBaseApi.zip",
-            checksum: "9f552bbbe1706ae2d08d608877c86545488afa518da9bb47578c7ed5b58bbd4a"
+            checksum: "b88766cae45f9c9474282aac6b3e7fe8bb82dc0ed864885952be45eaecd63429"
         ),
         .binaryTarget(
             name: "VHallAdidasSDK",
