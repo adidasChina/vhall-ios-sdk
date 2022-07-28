@@ -37,8 +37,8 @@ let package = Package(
             .exact("0.6.0")
         ),
         .package(
-            url: "https://github.com/CoderMJLee/MJRefresh",
-            .exact("3.7.5")
+            url: "https://github.com/adimobile/MJRefresh",
+            .exact("3.7.2-bundle-fix")
         ),
         .package(
             url: "https://github.com/CoderMJLee/MJExtension",
