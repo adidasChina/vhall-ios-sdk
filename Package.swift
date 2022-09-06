@@ -82,7 +82,7 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VHCore",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHCore/2.3.1/VHCore.zip",
+            url: "https://adidasapp.3stripes.net/frameworks/ios/VHCore/2.2.2/VHCore.zip",
             checksum: "00ad4c937d52880ec095e01d9f3c017f018f9b2d642185a640d12f697787a482"
         ),
         .binaryTarget(
@@ -92,12 +92,12 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VHLSS",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.5.0/VHLSS.zip",
+            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.4.3/VHLSS.zip",
             checksum: "001ad66de7475a174702423f8d637c3e236485a82d05e03901e1b1b973841eed"
         ),
         .binaryTarget(
             name: "VhallLiveBaseApi",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.5.0/VhallLiveBaseApi.zip",
+            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.4.3/VhallLiveBaseApi.zip",
             checksum: "b88766cae45f9c9474282aac6b3e7fe8bb82dc0ed864885952be45eaecd63429"
         ),
         .binaryTarget(
