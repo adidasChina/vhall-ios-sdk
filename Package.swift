@@ -18,11 +18,11 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
             url: "https://github.com/AFNetworking/AFNetworking",
-            from: "4.0.1"
+            .exact("4.0.1")
         ),
         .package(
             url: "https://github.com/jdg/MBProgressHUD",
-            from: "1.2.0"
+            .exact("1.2.0")
         ),
         .package(
             url: "https://github.com/adimobile/Masonry",
@@ -73,6 +73,9 @@ let package = Package(
             path: "VhallAdidasSDK",
             exclude: [
                 "VHallAdidasSDK.framework"
+            ],
+            resources: [
+                .process("Assets")
             ]
         ),
         .binaryTarget(
@@ -82,8 +85,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VHCore",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHCore/2.3.1/VHCore.zip",
-            checksum: "00ad4c937d52880ec095e01d9f3c017f018f9b2d642185a640d12f697787a482"
+            url: "https://adidasapp.3stripes.net/frameworks/ios/VHCore/2.2.2/VHCore.zip",
+            checksum: "9f89159324bd113169ac72c58696981f28b627b5bcbf7a8918466ccdb6490126"
         ),
         .binaryTarget(
             name: "VHIM",
@@ -92,13 +95,13 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VHLSS",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.5.0/VHLSS.zip",
-            checksum: "001ad66de7475a174702423f8d637c3e236485a82d05e03901e1b1b973841eed"
+            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.4.3/VHLSS.zip",
+            checksum: "e3228e8e3364b7e70959d03265779087a625ba4f000b9eeff2ef0a082a9e80ef"
         ),
         .binaryTarget(
             name: "VhallLiveBaseApi",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.5.0/VhallLiveBaseApi.zip",
-            checksum: "b88766cae45f9c9474282aac6b3e7fe8bb82dc0ed864885952be45eaecd63429"
+            url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.4.3/VhallLiveBaseApi.zip",
+            checksum: "dadf9b5ba78652094e5fc12aa8bc044e355a635c847a4e2288883664d6cf163d"
         ),
         .binaryTarget(
             name: "VHallAdidasSDK",
