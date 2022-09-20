@@ -25,8 +25,8 @@ let package = Package(
             from: "1.2.0"
         ),
         .package(
-            url: "https://github.com/cntrump/Masonry",
-            .branch("pr_layoutguide_support")
+            url: "https://github.com/adimobile/Masonry",
+            .exact("1.1.0-spm")
         ),
         .package(
             url: "https://github.com/SDWebImage/SDWebImage",
