@@ -18,11 +18,11 @@ let package = Package(
         // .package(url: /* package url */, from: "1.0.0"),
         .package(
             url: "https://github.com/AFNetworking/AFNetworking",
-            from: "4.0.1"
+            .exact("4.0.1")
         ),
         .package(
             url: "https://github.com/jdg/MBProgressHUD",
-            from: "1.2.0"
+            .exact("1.2.0")
         ),
         .package(
             url: "https://github.com/cntrump/Masonry",
@@ -73,6 +73,9 @@ let package = Package(
             path: "VhallAdidasSDK",
             exclude: [
                 "VHallAdidasSDK.framework"
+            ],
+            resources: [
+                .process("Assets")
             ]
         ),
         .binaryTarget(
