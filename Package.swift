@@ -106,7 +106,7 @@ let package = Package(
         .binaryTarget(
             name: "VHallAdidasSDK",
             url: "https://adidasapp.3stripes.net/frameworks/ios/VHallAdidasSDK/1.6.8/VHallAdidasSDK.zip",
-            checksum: "d74532a53a185fe81aa2f9f538ba4b60055c54b64049255dd0da34de385387bd"
+            checksum: "18ecb25bb049b212aa314a143281ec5920c508938ec0f4c666abbc63898f08eb"
         )
     ]
 )
