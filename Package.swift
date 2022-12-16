@@ -75,7 +75,7 @@ let package = Package(
                 "VHallAdidasSDK.framework"
             ],
             resources: [
-                .process("Assets")
+                .copy("VhallAdidasSDK_VhallAdidasSDKTarget.bundle")
             ]
         ),
         .binaryTarget(
