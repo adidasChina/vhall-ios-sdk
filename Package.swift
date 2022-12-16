@@ -73,9 +73,6 @@ let package = Package(
             path: "VhallAdidasSDK",
             exclude: [
                 "VHallAdidasSDK.framework"
-            ],
-            resources: [
-                .copy("VhallAdidasSDK_VhallAdidasSDKTarget.bundle")
             ]
         ),
         .binaryTarget(
