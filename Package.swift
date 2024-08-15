@@ -81,9 +81,14 @@ let package = Package(
             checksum: "317b79632efa936c4ebba8b08834d600d1342f79a38239210cc577f187ccd3f2"
         ),
         .binaryTarget(
+            name: "VHallAdidasSDK",
+            url: "https://adidasjc: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@github.com/adidasjc/vhall-ios-sdk/releases/download/1.6.9/VHallAdidasSDK.xcframework.zip",
+            checksum: "cdb91263cbda4d690b1211016aff58fe70ae2c67f28b05f595b948e29cb77cd7"
+        ),
+        .binaryTarget(
             name: "VHCore",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHCore/2.2.2/VHCore.zip",
-            checksum: "9f89159324bd113169ac72c58696981f28b627b5bcbf7a8918466ccdb6490126"
+            url: "https://adidasjc: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@github.com/adidasjc/vhall-ios-sdk/releases/download/1.6.9/VHCore.xcframework.zip",
+            checksum: "d7472eddab9460dd03d81c13a49e737aed08703883c0ce0e4a799523bc78cbe9"
         ),
         .binaryTarget(
             name: "VHIM",
@@ -99,11 +104,6 @@ let package = Package(
             name: "VhallLiveBaseApi",
             url: "https://adidasapp.3stripes.net/frameworks/ios/VHYun_LSS/2.4.3/VhallLiveBaseApi.zip",
             checksum: "dadf9b5ba78652094e5fc12aa8bc044e355a635c847a4e2288883664d6cf163d"
-        ),
-        .binaryTarget(
-            name: "VHallAdidasSDK",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/VHallAdidasSDK/1.6.8/VHallAdidasSDK.zip",
-            checksum: "18ecb25bb049b212aa314a143281ec5920c508938ec0f4c666abbc63898f08eb"
         )
     ]
 )
