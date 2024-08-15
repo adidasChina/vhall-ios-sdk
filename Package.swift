@@ -82,12 +82,12 @@ let package = Package(
         ),
         .binaryTarget(
             name: "VHallAdidasSDK",
-            url: "https://adidasjc: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@github.com/adidasjc/vhall-ios-sdk/releases/download/1.6.9/VHallAdidasSDK.xcframework.zip",
+            url: "https://github.com/adidasjc/vhall-ios-sdk/releases/download/1.6.9/VHallAdidasSDK.xcframework.zip",
             checksum: "cdb91263cbda4d690b1211016aff58fe70ae2c67f28b05f595b948e29cb77cd7"
         ),
         .binaryTarget(
             name: "VHCore",
-            url: "https://adidasjc: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@github.com/adidasjc/vhall-ios-sdk/releases/download/1.6.9/VHCore.xcframework.zip",
+            url: "https://github.com/adidasjc/vhall-ios-sdk/releases/download/1.6.9/VHCore.xcframework.zip",
             checksum: "d7472eddab9460dd03d81c13a49e737aed08703883c0ce0e4a799523bc78cbe9"
         ),
         .binaryTarget(
