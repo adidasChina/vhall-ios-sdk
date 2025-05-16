@@ -56,7 +56,6 @@ let package = Package(
             name: "VhallAdidasSDKTarget",
             dependencies: [
                 "VHallAdidasSDK",
-                "YYKit",
                 "VHCore",
                 "VHIM",
                 "VhallLiveBaseApi",
@@ -76,18 +75,13 @@ let package = Package(
             ]
         ),
         .binaryTarget(
-            name: "YYKit",
-            url: "https://adidasapp.3stripes.net/frameworks/ios/YYKit/1.0.9/YYKit.zip",
-            checksum: "317b79632efa936c4ebba8b08834d600d1342f79a38239210cc577f187ccd3f2"
-        ),
-        .binaryTarget(
             name: "VHallAdidasSDK",
-            url: "https://github.com/adidasChina/vhall-ios-sdk/releases/download/1.7.1/VHallAdidasSDK.xcframework.zip",
-            checksum: "adab2cba65c27462cbe212709d5f97713003af01029f81bc886294d7a118918f"
+            url: "https://github.com/adidasChina/vhall-ios-sdk/releases/download/1.7.2/VHallAdidasSDK.xcframework.zip",
+            checksum: "2b466f721a9402257d1596b460f581652422cb58994d3c27fd3c16550fd6ebb6"
         ),
         .binaryTarget(
             name: "VHCore",
-            url: "https://github.com/adidasChina/vhall-ios-sdk/releases/download/1.7.1/VHCore.xcframework.zip",
+            url: "https://github.com/adidasChina/vhall-ios-sdk/releases/download/1.7.2/VHCore.xcframework.zip",
             checksum: "d7472eddab9460dd03d81c13a49e737aed08703883c0ce0e4a799523bc78cbe9"
         ),
         .binaryTarget(
