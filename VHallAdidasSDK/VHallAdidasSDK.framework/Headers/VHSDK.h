@@ -33,6 +33,19 @@
             secret_key:(NSString *)secret_key
               app_host:(NSString *)app_host;
 
+/**
+ * 注册app
+ * @param app_id       vhall后台注册生成的app_id
+ * @param secret_key   vhall后台注册生成的secret_key
+ * @param app_host     接口host地址
+ * @param idfv         idfv
+ *
+ */
++ (void)registerApp_id:(NSString *)app_id
+            secret_key:(NSString *)secret_key
+              app_host:(NSString *)app_host
+                  idfv:(NSString *)idfv;
+
 /** 进入房间
  *  @param il_id        房间号
  *  @param member_id    三方唯一ID
